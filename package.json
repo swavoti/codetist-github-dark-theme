@@ -1,0 +1,22 @@
+{
+  "name": "github-theme",
+  "displayName": "GitHub Dark",
+  "description": "Official GitHub Dark theme styling for Codetist IDE",
+  "version": "1.0.0",
+  "publisher": "Codetist-Swavoti-extensions-util",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
